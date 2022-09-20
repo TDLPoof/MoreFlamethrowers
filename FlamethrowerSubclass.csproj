@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\tModLoader.targets" />
+  <PropertyGroup>
+    <AssemblyName>FlamethrowerSubclass</AssemblyName>
+    <TargetFramework>net6.0</TargetFramework>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="tModLoader.CodeAssist" Version="0.1.*" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="CursedFlamethrower\" />
+    <None Remove="TorchGodFlamethrower\" />
+    <None Remove="CursedFlamethrower %28copy%29\" />
+    <None Remove="EternalFlame\" />
+    <None Remove="VenomousBite\" />
+    <None Remove="EternalFlame %28copy%29\" />
+    <None Remove="BloodBolt %28copy%29\" />
+    <None Remove="ShadowCaster %28copy%29\" />
+    <None Remove="LawnyxBlaster\" />
+    <None Remove="TorchBlast\" />
+    <None Remove="TorchBlast %28copy%29\" />
+    <None Remove="LightningThrower %28copy%29\" />
+    <None Remove="WindThrower %28copy%29\" />
+    <None Remove="ArsonistArmor\" />
+    <None Remove="ArsonistArmor\ArsonistMask\" />
+    <None Remove="ArsonistArmor\ArsonistMask %28copy%29\" />
+    <None Remove="Accessories\" />
+    <None Remove="ShroomiteHood\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CursedFlamethrower\" />
+    <Folder Include="TorchGodFlamethrower\" />
+    <Folder Include="Lighters\" />
+    <Folder Include="WindThrower\" />
+    <Folder Include="EternalFlame\" />
+    <Folder Include="VenomousBite\" />
+    <Folder Include="BloodBolt\" />
+    <Folder Include="DecayThrower\" />
+    <Folder Include="ShadowCaster\" />
+    <Folder Include="LawnThrower\" />
+    <Folder Include="Malevolence\" />
+    <Folder Include="LightningThrower\" />
+    <Folder Include="TorchBlast\" />
+    <Folder Include="Blamster\" />
+    <Folder Include="ShroomiteLightning\" />
+    <Folder Include="ShroomiteWind\" />
+    <Folder Include="ArsonistArmor\" />
+    <Folder Include="ArsonistArmor\ArsonistMask\" />
+    <Folder Include="ArsonistArmor\ArsonistBoots\" />
+    <Folder Include="Accessories\" />
+    <Folder Include="ShroomiteHood\" />
+  </ItemGroup>
+</Project>
